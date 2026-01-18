@@ -79,3 +79,64 @@
     ">Buy now</button>
   </body>
 </html>
+
+
+variables:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variables</title>
+  </head>
+  <body>
+    <script>
+      let variable1 = 3;
+      console.log(variable1);
+
+      const calculation = 2 + 2;
+      console.log(calculation);
+      console.log(calculation + 2);
+
+      const result = calculation + 2;
+      console.log(result);
+
+      const message = 'hello';
+      console.log(message); console.log(';');
+
+      variable1 = 5;
+      console.log(variable1);
+
+      variable1 = variable1 + 1;
+      console.log(variable1);
+
+      const variable2 = 3;
+      var variable3 = 3;
+    </script>
+  </body>
+</html>
+
+
+onlick and project:
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variables</title>
+  </head>
+  <body>
+    <button onclick="
+        console.log(`cartQuantity: ${cartQuantity}`)">SHOW QUANTITY</button>
+    <button onclick="cartQuantity=cartQuantity+1;
+            console.log(`cartQuantity: ${cartQuantity}`)
+
+    ">ADD TO CART</button>
+    <button>+2</button>
+    <button>+3</button>
+    <button>RESET Cart</button>
+    <script>
+     let cartQuantity = 0;
+     
+    </script>
+  </body>
+</html
